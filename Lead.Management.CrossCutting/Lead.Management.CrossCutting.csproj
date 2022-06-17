@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lead.Management.Application\Lead.Management.Application.csproj" />
+    <ProjectReference Include="..\Lead.Management.Domain\Lead.Management.Domain.csproj" />
+    <ProjectReference Include="..\Lead.Management.Infrastruture\Lead.Management.Infrastruture.csproj" />
+  </ItemGroup>
+
+</Project>
